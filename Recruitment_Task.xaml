@@ -72,7 +72,7 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Recruitment Task" sap:VirtualizedContainerService.HintSize="512,307.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence DisplayName="Recruitment Task" sap:VirtualizedContainerService.HintSize="512,477.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractArticlesDataTable" />
     </Sequence.Variables>
@@ -214,6 +214,9 @@
       </ui:ExcelApplicationScope>
     </Sequence>
     <AddToCollection x:TypeArguments="x:Object" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="AddToCollection`1_1" />
+    <RemoveFromCollection x:TypeArguments="x:Object" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_1" />
+    <RemoveFromCollection x:TypeArguments="x:Object" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_2" />
+    <RemoveFromCollection x:TypeArguments="x:Object" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_3" />
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Close_Browser workflow" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Close_Browser.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
